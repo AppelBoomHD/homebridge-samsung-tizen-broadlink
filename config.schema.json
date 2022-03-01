@@ -71,6 +71,8 @@
                 }
             },
 
+            
+
             "devices": {
                 "type": "array",
                 "items": {
@@ -196,6 +198,23 @@
                                 },
                                 "INFORMATION": {
                                     "type": "string"
+                                }
+                            }
+                        },
+                        "receiver": {
+                            "type": "object",
+                            "properties": {
+                                "ip": {
+                                    "type": "string"
+                                },
+                                "port": {
+                                    "type": "integer"
+                                },
+                                "mac": {
+                                    "type": "string"
+                                },
+                                "type": {
+                                    "type": "integer"
                                 }
                             }
                         }
@@ -464,6 +483,63 @@
                                                     "key": "devices[].keys.INFORMATION",
                                                     "title": "INFORMATION",
                                                     "placeholder": "KEY_INFO",
+                                                    "flex": "1 1 25%"
+                                                }
+                                            ]
+                                        },
+{
+                                            "type": "section",
+                                            "title": "Key Mapping",
+                                            "expandable": true,
+                                            "expanded": false,
+                                            "display": "flex",
+                                            "flex-flow": "row wrap",
+                                            "items": [
+                                                {
+                                                    "type": "help",
+                                                    "helpvalue": "<p class='help-block'>Add Broadlink RF device info.</p>",
+                                                    "flex": "1 1 100%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.ip",
+                                                    "title": "IP Address",
+                                                    "placeholder": "0.0.0.0",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.port",
+                                                    "title": "Port",
+                                                    "placeholder": "80",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.mac",
+                                                    "title": "MAC Address",
+                                                    "placeholder": "00:00:00:00:00:00",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.type",
+                                                    "title": "Broadlink device type (Find on https://github.com/kiwi-cam/homebridge-broadlink-rm, file: index.js)",
+                                                    "placeholder": "00000",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.hexMute",
+                                                    "title": "Mute HEX",
+                                                    "placeholder": "",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.hexVolUp",
+                                                    "title": "Volume up HEX",
+                                                    "placeholder": "",
+                                                    "flex": "1 1 25%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.hexVolDown",
+                                                    "title": "Volume down HEX",
+                                                    "placeholder": "",
                                                     "flex": "1 1 25%"
                                                 }
                                             ]

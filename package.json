@@ -1,14 +1,14 @@
 {
-  "name": "homebridge-samsung-tizen",
-  "version": "5.1.1",
-  "description": "Homebridge plugin for Samsung TV's with Tizen OS",
+  "name": "homebridge-samsung-tizen-broadlink",
+  "version": "1.0.0",
+  "description": "Homebridge plugin for Samsung TV's with Tizen OS combined with Broadlink RM/RF devices",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tavicu/homebridge-samsung-tizen.git"
+    "url": "git+https://github.com/AppelBoomHD/homebridge-samsung-tizen-broadlink.git"
   },
   "keywords": [
     "homebridge-plugin",
@@ -18,11 +18,11 @@
     "remote",
     "tizen"
   ],
-  "author": "Octavian Ruda",
+  "author": "Julian Riemersma",
   "license": "MIT",
-  "homepage": "https://github.com/tavicu/homebridge-samsung-tizen#readme",
+  "homepage": "https://github.com/AppelBoomHD/homebridge-samsung-tizen-broadlink#readme",
   "bugs": {
-    "url": "https://github.com/tavicu/homebridge-samsung-tizen/issues"
+    "url": "https://github.com/AppelBoomHD/homebridge-samsung-tizen-broadlink/issues"
   },
   "engines": {
     "node": ">=12.13.0",
@@ -33,6 +33,7 @@
     "delay": "^5.0.0",
     "fs-extra": "^10.0.0",
     "is-port-reachable": "^3.0.0",
+    "kiwicam-broadlinkjs-rm": "^0.9.16",
     "node-fetch": "^2.6.1",
     "timeout-signal": "^1.1.0",
     "wakeonlan": "^0.1.0",
