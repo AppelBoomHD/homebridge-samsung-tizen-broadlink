@@ -1,6 +1,6 @@
 {
   "name": "@AppelBoomHD/homebridge-samsung-tizen-broadlink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Homebridge plugin for Samsung TV's with Tizen OS combined with Broadlink RM/RF devices",
   "main": "index.js",
   "directories": {
