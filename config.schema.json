@@ -229,7 +229,7 @@
                                     "type": "integer"
                                 },
                                 "interval": {
-                                    "type": "double"
+                                    "type": "integer"
                                 }
                             }
                         }
@@ -566,7 +566,7 @@
                                                 {
                                                     "key": "devices[].receiver.interval",
                                                     "title": "Interval between each repetition",
-                                                    "placeholder": "0.1",
+                                                    "placeholder": "1",
                                                     "flex": "1 1 50%"
                                                 }
                                             ]
