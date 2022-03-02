@@ -215,6 +215,15 @@
                                 },
                                 "type": {
                                     "type": "integer"
+                                },
+                                "hexMute": {
+                                    "type": "string"
+                                },
+                                "hexVolUp": {
+                                    "type": "string"
+                                },
+                                "hexVolDown": {
+                                    "type": "string"
                                 }
                             }
                         }
