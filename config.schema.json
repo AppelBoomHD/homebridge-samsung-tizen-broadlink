@@ -226,10 +226,10 @@
                                     "type": "string"
                                 },
                                 "repeat": {
-                                    "type": "string"
+                                    "type": "integer"
                                 },
                                 "interval": {
-                                    "type": "string"
+                                    "type": "double"
                                 }
                             }
                         }
