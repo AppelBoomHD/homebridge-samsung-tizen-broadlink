@@ -489,7 +489,7 @@
                                         },
 {
                                             "type": "section",
-                                            "title": "Key Mapping",
+                                            "title": "Broadlink receiver",
                                             "expandable": true,
                                             "expanded": false,
                                             "display": "flex",
@@ -504,19 +504,19 @@
                                                     "key": "devices[].receiver.ip",
                                                     "title": "IP Address",
                                                     "placeholder": "0.0.0.0",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 50%"
                                                 },
                                                 {
                                                     "key": "devices[].receiver.port",
                                                     "title": "Port",
                                                     "placeholder": "80",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 50%"
                                                 },
                                                 {
                                                     "key": "devices[].receiver.mac",
                                                     "title": "MAC Address",
                                                     "placeholder": "00:00:00:00:00:00",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 75%"
                                                 },
                                                 {
                                                     "key": "devices[].receiver.type",
@@ -528,19 +528,19 @@
                                                     "key": "devices[].receiver.hexMute",
                                                     "title": "Mute HEX",
                                                     "placeholder": "",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 100%"
                                                 },
                                                 {
                                                     "key": "devices[].receiver.hexVolUp",
                                                     "title": "Volume up HEX",
                                                     "placeholder": "",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 100%"
                                                 },
                                                 {
                                                     "key": "devices[].receiver.hexVolDown",
                                                     "title": "Volume down HEX",
                                                     "placeholder": "",
-                                                    "flex": "1 1 25%"
+                                                    "flex": "1 1 100%"
                                                 }
                                             ]
                                         }
