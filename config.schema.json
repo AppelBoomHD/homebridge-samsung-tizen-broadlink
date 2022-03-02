@@ -224,6 +224,12 @@
                                 },
                                 "hexVolDown": {
                                     "type": "string"
+                                },
+                                "repeat": {
+                                    "type": "string"
+                                },
+                                "interval": {
+                                    "type": "string"
                                 }
                             }
                         }
@@ -550,6 +556,18 @@
                                                     "title": "Volume down HEX",
                                                     "placeholder": "",
                                                     "flex": "1 1 100%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.repeat",
+                                                    "title": "Number of times to repeat volume up/down command",
+                                                    "placeholder": "1",
+                                                    "flex": "1 1 50%"
+                                                },
+                                                {
+                                                    "key": "devices[].receiver.interval",
+                                                    "title": "Interval between each repetition",
+                                                    "placeholder": "0.1",
+                                                    "flex": "1 1 50%"
                                                 }
                                             ]
                                         }
